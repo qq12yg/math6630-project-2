@@ -1,0 +1,17 @@
+Again, I wanted the actual report source tex file
+
+- For inner products use $\langle$ and $\rangle$, not $<$ and $>$.
+
+- Bottom of p1: what do you mean "for the first term on the right hand side". I don't know what you're referring to. I also don't get why $\phi$ needs a ``1'' subscript.
+
+- Top of p2: for the matrix A, I'm pretty sure you're missing some factors of \pi. Maybe you used $e^{i j x}$ as the problem statement said, and not $e^{2 \pi i j x}$. The latter is only one of these options that is periodic on $[0, 1]$.
+ 
+- Top of p2: The equation at the end of part (a) is not quite correct. I don't know what $A_k$ is.
+
+- p2: for part (b), I don't know why you're doing things with finite differences. That is not at all what the problem is asking. Stability restrictions for finite difference methods are not the same as those for spectral methods.
+
+- The results for figures 3 and 4 don't really look correct. I unfortunately set the viscosity too large for this problem and so by time $T=1$ the solution should decay to almost 0. 
+
+- Your code doesn't use a spectral method. It uses some fintie difference method.
+
+- I didn't see any simulations for the second problem. And your code uses a finite difference method, not a spectral method
